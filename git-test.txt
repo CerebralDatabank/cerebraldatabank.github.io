@@ -1,0 +1,2 @@
+Hello World!
+Testing VS Code's Git integration.

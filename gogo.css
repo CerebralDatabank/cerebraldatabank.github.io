@@ -1,0 +1,158 @@
+/* GOGO CSS by Gopal Othayoth (cerebraldatabank@gmail.com, https://cerebraldatabank.neocities.org/)
+ * Version: v2.0.2
+ * Last Updated: 2018-12-17
+ * This code may not be distributed without express written/typed permission by Gopal Othayoth (cerebraldatabank@gmail.com).
+ * The GOGO CSS Class Library was made by Gopal Othayoth (cerebraldatabank@gmail.com). All rights reserved.
+ * All Data URI images are also created by Gopal Othayoth and can be treated as part of the GOGO CSS Class Library
+ */
+
+/*Comment out below rule to not disable dotted borders*/
+*::-moz-focus-inner {
+  border: none;
+}
+
+.gogo-btn {
+  background: #EEEEEE;
+  border: 1px solid #CCCCCC;
+  color: #000000;
+  border-radius: 2px;
+  padding: 5px 10px;
+  font: 14px "Segoe UI", "Arial", sans-serif;
+  font-weight: 500;
+  text-align: center;
+  text-decoration: none;
+  cursor: default;
+}
+.gogo-btn:hover {
+  background: #DDDDDD;
+}
+.gogo-btn:active {
+  background: #CECECE;
+}
+.gogo-btn:disabled {
+  background: #EFEFEF;
+  opacity: 0.3;
+  cursor: not-allowed;
+}
+
+.gogo-btn-big {
+  padding: 10px 20px;
+}
+
+.gogo-btn-blue {
+  background: #0099FF;
+  color: #FFFFFF;
+  border: 1px solid #0088EE;
+}
+.gogo-btn-blue:hover {
+  background: #0088EE;
+}
+.gogo-btn-blue:active {
+  background: #0055CC;
+}
+.gogo-btn-blue:disabled {
+  background: #0099FF;
+}
+
+.gogo-btn-green {
+  background: #32CD32;
+  color: #FFFFFF;
+  border: 1px solid #22AA22;
+}
+.gogo-btn-green:hover {
+  background: #22AA22;
+}
+.gogo-btn-green:active {
+  background: #008800;
+}
+.gogo-btn-green:disabled {
+  background: #32CD32;
+}
+
+.gogo-btn-red {
+  background: #FF0000;
+  color: #FFFFFF;
+  border: 1px solid #CC0000;
+}
+.gogo-btn-red:hover {
+  background: #CC0000;
+}
+.gogo-btn-red:active {
+  background: #AA0000;
+}
+.gogo-btn-red:disabled {
+  background: #FF0000;
+}
+
+.gogo-btn-mint {
+  background: #3EB489;
+  color: #FFFFFF;
+  border: 1px solid #39A57E;
+}
+.gogo-btn-mint:hover {
+  background: #39A57E;
+}
+.gogo-btn-mint:active {
+  background: #278966;
+}
+.gogo-btn-mint:disabled {
+  background: #3EB489;
+}
+
+.gogo-btn-orange {
+  background: #FFA500;
+  color: #FFFFFF;
+  border: 1px solid #EE9400;
+}
+.gogo-btn-orange:hover {
+  background: #EE9400;
+}
+.gogo-btn-orange:active {
+  background: #CC8000;
+}
+.gogo-btn-orange:disabled {
+  background: #FFA500;
+}
+
+.gogo-btn-darkblue {
+  background: #0000EE;
+  color: #FFFFFF;
+  border: 1px solid #0000CC;
+}
+.gogo-btn-darkblue:hover {
+  background: #0000CC;
+}
+.gogo-btn-darkblue:active {
+  background: #0000AA;
+}
+.gogo-btn-darkblue:disabled {
+  background: #0000EE;
+}
+
+code, .gogo-default-code, .gogo-code, .gogo-filename, .gogo-monospace {
+  background: #222222;
+  color: #FFFFFF;
+  font-family: "Consolas", monospace;
+  font-size: 0.8em;
+  white-space: pre;
+  border-radius: 4px;
+  padding: 2px 4px;
+}
+var {
+  /*font-family: "Times New Roman", serif;*/
+  font-style: italic;
+}
+select {
+  background: #EEEEEE;
+  border: 1px solid #CCCCCC;
+  color: #000000;
+  border-radius: 2px;
+  padding: 2px 4px;
+  font: 14px "Segoe UI", "Arial";
+  text-decoration: none;
+  cursor: default;
+}
+select:disabled {
+  opacity: 0.6;
+  cursor: not-allowed;
+}
